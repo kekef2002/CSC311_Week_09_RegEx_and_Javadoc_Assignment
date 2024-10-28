@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<?import java.net.URL?>
+<Pane fx:id="root" prefHeight="636" prefWidth="850" styleClass="v9_4" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.farmingdale.csc311_week_09_regex_and_javadoc_assignment.LoginController">
+    <stylesheets>
+        <URL value="@style1.css" />
+    </stylesheets>
+    <Label fx:id="welcomeText" layoutX="53" layoutY="83" styleClass="v10_95" text="Login Page" />
+    <Label layoutX="76" layoutY="152" styleClass="v9_5" text="Username" />
+    <Label layoutX="76" layoutY="252" styleClass="v9_7" text="Password" />
+
+    <TextField fx:id="usernameL_text_field" layoutX="76.0" layoutY="182.0" prefHeight="40.0" prefWidth="458.0" styleClass="v9_20" />
+    <TextField fx:id="passwordL_text_field" layoutX="76.0" layoutY="282.0" prefHeight="40.0" prefWidth="458.0" styleClass="v9_22" />
+
+    <Button fx:id="sign_in_with_username" layoutX="76.0" layoutY="376.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="458.0" text="Sign in with username" />
+    <Button fx:id="create_your_account" layoutX="76.0" layoutY="449.0" mnemonicParsing="false" onAction="#handleCreateAccount" prefHeight="34.0" prefWidth="458.0" text="Create Your Account" />
+</Pane>
